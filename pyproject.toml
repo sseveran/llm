@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Building an LLM scratch"
 readme = "README.md"
 requires-python = ">=3.13.5"
-dependencies = []
+dependencies = [
+  "datasets>=4.0.0",
+  "huggingface-hub>=0.34.4",
+  "tiktoken>=0.11.0",
+  "tokenizers>=0.22.0",
+  "torch>=2.9.1",
+]
